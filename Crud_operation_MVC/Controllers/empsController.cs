@@ -23,7 +23,7 @@ namespace Crud_operation_MVC.Controllers
         // GET: emps/Details/5  
         public ActionResult Details(int? id)
         {
-            if (id == null)
+            if (id == null) 
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
