@@ -20,7 +20,7 @@ namespace Crud_operation_MVC.Controllers
             return View(db.emps.ToList());
         }
 
-        // GET: emps/Details/5  
+        // GET: emps/Details/5/  
         public ActionResult Details(int? id)
         {
             if (id == null) 
